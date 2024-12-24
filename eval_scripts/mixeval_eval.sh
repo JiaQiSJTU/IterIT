@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python3 -m mix_eval.evaluate --model_name local_chat --model_path path/to/the/instruction/tuned/model --benchmark mixeval_hard --version 2024-06-01 --batch_size 4 --max_gpu_memory 30GiB --output_dir path/to/save/the/outputs --api_parallel_num 1
